@@ -1,0 +1,102 @@
+body
+{
+    margin: 0px;
+}
+
+header
+{
+    background-color: rgb(9, 78, 9);
+}
+
+.header_linha
+{
+    background-color: rgb(9, 78, 9);
+    height: 10px;  
+}
+
+.header_area
+{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 103px;
+    padding: 0px 120px;
+}
+
+.header_left a img
+{
+    height: 64px;
+    width: 64px;
+}
+
+.header_rigth 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_rigth .pesquisa form
+{
+    display: flex;
+}
+
+.header_rigth input
+{
+    font-size: 16px;
+    padding: 0px 13px;
+    border: 1px solid #999;
+    outline: 0;
+    max-width: 260px;
+    height: 37px;
+}
+
+.header_rigth button
+{
+    border: 0;
+    background-color: transparent;
+    margin-top: 3px;
+    margin-left: -38px;
+    cursor: pointer;
+}
+
+.header_menu
+{
+    margin-left: 40px;
+}
+
+.header_menu img
+{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    padding: 0px 20px;
+}
+
+@media (max-width: 1075px)
+{
+    .header_area
+    {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 20px;
+    }
+
+}
+
+@media (max-width: 395px)
+{
+    .header_rigth input 
+    {
+        width: 40vw;
+    }
+}
+
+@media (max-width: 333px)
+{
+    .header_rigth input 
+    {
+        width: 33vw;
+    }
+}
